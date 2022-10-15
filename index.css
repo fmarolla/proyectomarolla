@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    }
+
+body{
+    margin: 0;
+    background-color:white;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+#logo {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: rgb(62, 62, 62);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo2{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.nav-links {
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.comprarTicket a{
+    color: rgba(1, 143, 1, 0.778);
+}
+
+#container1{
+    background-image: url(./imagenes/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: #fff;
+    box-shadow: inset 0 0 0 2000px rgb(78 78 78 / 57%);
+}
+
+.imagenBanner{
+    text-align: end;
+    padding-top: 250px;
+    padding-right: 100px;
+}
+.Botones {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#botonOradores{
+    color: #fff;
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#botonTickets {
+    color: #fff;
+    background-color: rgb(55, 144, 55);
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.tituloOradores{
+    text-align: center;
+    margin: 0px;
+}
+
+.Oradores{
+    text-align: center;
+    font-size: 30px;
+}
+
+.fotosOradores {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 111px;
+    margin-left: 200px;
+    margin-right: 200px;   
+}
+
+.steveJobs {
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.billGates {
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.adaLovelace {
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.especialidad {
+    display:flex;
+}
+
+.especialidad2{
+    display: flex;
+}
+
+.javaScript {
+    margin-right: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgb(207, 200, 2);
+    color: rgb(9, 9, 9);
+}
+
+.React {
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgba(76, 0, 252, 0.657);
+    color: white;
+
+}
+
+.negocios {
+    margin-right: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgb(199, 195, 195);
+    color: white;
+}
+
+.starUps {
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: red;
+    color: white;
+}
+
+.Oradores2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.conoceMas{
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.containerFooter{
+    background-color: #2E5966;
+    display: flex;    
+    text-align: center; 
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;       
+}
+
+.nav-links2 {
+    display: flex;
+    gap: 100px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 20px;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
+
+.nav-links2 a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.botonEnviar {
+    background-color:  rgb(55, 144, 55);
+    color: #fff;
+}
+
+
+
+
+
+
+
